@@ -3,7 +3,7 @@
         <div class="login-container">
             <div class="logo">
                 <!-- <img src="@/assets/logo.png" alt="" /> -->
-                <span>中台后台管理系统</span>
+                <span>活动管理平台</span>
             </div>
             <a-form
                 :model="formState"
@@ -42,7 +42,7 @@
 import { reactive, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import useUserStore from '@/stores/modules/userStore'
-import { login } from '@/api/userApi'
+import { loginApi } from '@/apis/index'
 import { message } from 'ant-design-vue'
 
 const router = useRouter()
@@ -56,7 +56,7 @@ const loading = ref(false)
 const onFinish = async (values) => {
     try {
         loading.value = true
-        const res = await login({ ...formState, ...values })
+        const res = await loginApi.loginHandler({ ...formState, ...values })
         // 判断是否新用户（普通用户没有权限）
         const isNewUser =
             !res.isSuper &&

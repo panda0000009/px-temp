@@ -616,6 +616,13 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
+apifox-ptfe-gen@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/apifox-ptfe-gen/-/apifox-ptfe-gen-0.1.1.tgz#431165a54fdf610326b372257b9f9e88251ccbfd"
+  integrity sha512-UcWgMDJyWBsbDNqtqVGtTKcy+s7ojGq4mjWbZgv+TxRs98GfefcVbitxgdrIVBWS1XWGn9yuIftj0Xa22jaaTA==
+  dependencies:
+    yaml "^2.8.1"
+
 array-tree-filter@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmmirror.com/array-tree-filter/-/array-tree-filter-2.1.0.tgz"
@@ -1937,6 +1944,11 @@ xe-utils@^3.5.26, xe-utils@^3.7.4:
   version "3.7.4"
   resolved "https://registry.npmmirror.com/xe-utils/-/xe-utils-3.7.4.tgz"
   integrity sha512-9yuCHLOU+og4OEkPWWtzrYk1Zt1hgN66U/NCJ0+vYJSx1MplBtoQRz8aEA+2RmCr3leLru98vQxNpw/vJsu/sg==
+
+yaml@^2.8.1:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.8.2.tgz#5694f25eca0ce9c3e7a9d9e00ce0ddabbd9e35c5"
+  integrity sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==
 
 zrender@5.6.1:
   version "5.6.1"

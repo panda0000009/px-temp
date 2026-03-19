@@ -163,4 +163,7 @@ export function cachedRequest(config, cacheTime = 60000) {
     })
 }
 
+/** @type {import('axios').AxiosInstance} */
+export const request = service
+
 export default service

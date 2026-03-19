@@ -37,6 +37,7 @@
     "devDependencies": {
         "@types/node": "^22.13.10",
         "@vitejs/plugin-vue": "^5.2.1",
+        "apifox-ptfe-gen": "^0.1.1",
         "sass-embedded": "^1.89.1",
         "swagger-ptfe-gen": "^0.2.0",
         "terser": "^5.44.1",
@@ -47,6 +48,6 @@
     },
     "apifoxPtfeGen": {
         "url": "https://s.apifox.cn/192b3c75-21b5-4f03-8b23-669769c9a8c6/429915524e0",
-        "outDir": "src/api"
+        "outDir": "src/apis"
     }
 }

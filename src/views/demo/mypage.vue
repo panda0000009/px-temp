@@ -30,7 +30,6 @@
                     :is-strong-title="true"
                     :has-color="true"
                 />
-
                 <div class="mypage__box-content">
                     <DefaultTable
                         ref="tableRef"

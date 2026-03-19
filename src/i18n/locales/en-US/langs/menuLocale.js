@@ -1,0 +1,38 @@
+export default {
+    menuList: {
+        // 首页
+        '/': 'Dashboard',
+        '/home': 'Home',
+        '/monitoring': 'Monitoring',
+        '/noPermission': 'NoPermission',
+        '/gm-order': 'Gm Order',
+        '/dashboard': 'Dashboard',
+        '/workbench': 'Workbench',
+        '/datacenter': 'Data Center',
+        '/monthlyreport': 'Monthly Report',
+        '/weekly': 'Weekly',
+        '/vendor': 'Vendor',
+        '/riskControl': 'RiskControl',
+        '/earlyWarning': 'EarlyWarning',
+        '/vendor-monthly': 'Vendor Monthly',
+        '/vendor-weekly': 'Vendor Weekly',
+        '/dataquery': 'dataquery',
+        '/reconciliation': 'Reconciliation',
+        '/financial': 'Financial',
+        '/system': 'Permission Management',
+        '/user': 'User Manage',
+        '/permissions': 'Permissions',
+        '/permisettings': 'Permisettings',
+        '/menuManagement': 'Menu Management',
+        '/merchant': 'Merchant Management',
+        '/list': 'Merchant list',
+        '/game': 'Merchant Game',
+        '/rate': 'Merchant Rate',
+        '/operations': 'Operations list',
+        '/menuList': 'Menu Management',
+        '/roleList': 'Role Management',
+        '/orgList': 'Department Management',
+        '/userList': 'User List',
+        '/adminuserList': 'Admin Users'
+    }
+}

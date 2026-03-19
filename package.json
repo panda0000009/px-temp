@@ -1,0 +1,52 @@
+{
+    "name": "tuochebang",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "gen:apifox": "apifox-ptfe-gen",
+        "dev": "vite --host",
+        "dbt": "vite --host --open /distributor.html",
+        "build": "vite build --outDir dist-admin",
+        "build:dev": "vite build --outDir dist-dev --mode development",
+        "build:analyze": "vite build --outDir dist-admin --mode analyze",
+        "preview": "vite preview",
+        "preview:dev": "vite preview --outDir dist-dev"
+    },
+    "dependencies": {
+        "@amap/amap-jsapi-loader": "^1.0.1",
+        "@ant-design/icons-vue": "^7.0.1",
+        "@tinymce/tinymce-vue": "^6.2.0",
+        "@vueuse/core": "^14.1.0",
+        "ant-design-vue": "^4.2.6",
+        "axios": "^1.8.3",
+        "dayjs": "^1.11.13",
+        "echarts": "^5.6.0",
+        "moment": "^2.30.1",
+        "nprogress": "^0.2.0",
+        "pinia": "^3.0.1",
+        "pinia-plugin-persistedstate": "^4.3.0",
+        "qs": "^6.14.0",
+        "tinymce": "^5.10.9",
+        "vue": "^3.5.13",
+        "vue-i18n": "^9.14.5",
+        "vue-router": "^4.5.0",
+        "vxe-table": "^4.13.32",
+        "xe-utils": "^3.7.4"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.10",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "sass-embedded": "^1.89.1",
+        "swagger-ptfe-gen": "^0.2.0",
+        "terser": "^5.44.1",
+        "unplugin-vue-components": "^28.4.1",
+        "vite": "^6.2.0",
+        "vite-plugin-compression": "^0.5.1",
+        "vite-plugin-lazy-import": "^1.0.7"
+    },
+    "apifoxPtfeGen": {
+        "url": "https://s.apifox.cn/192b3c75-21b5-4f03-8b23-669769c9a8c6/429915524e0",
+        "outDir": "src/api"
+    }
+}

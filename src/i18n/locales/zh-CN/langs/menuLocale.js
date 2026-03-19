@@ -1,0 +1,36 @@
+export default {
+    menuList: {
+        // 首页
+        '/home': '首页',
+        '/': '仪表盘',
+        '/dashboard': '仪表盘',
+        '/monitoring': '实时监控',
+        '/noPermission': '无权限',
+        '/workbench': '工作台-运营商',
+        '/vendor': '工作台-供应商',
+        '/datacenter': '数据中心',
+        '/monthlyreport': '月报-运营商',
+        '/vendor-monthly': '月报-供应商',
+        '/vendor-weekly': '周报-供应商',
+        '/weekly': '周报-运营商',
+        '/riskControl': '风控设置',
+        '/earlyWarning': '预警设置',
+        '/gm-order': 'GM命令',
+        '/dataquery': '数据查询',
+        '/reconciliation': '对账',
+        '/financial': '财务对账',
+        '/user': '账号管理',
+        '/userList': '用户管理',
+        '/permissions': '权限管理',
+        '/permisettings': '权限设置',
+        '/menuManagement': '菜单管理',
+        '/system': '权限管理',
+        '/merchant': '商户管理',
+        '/list': '运营商管理',
+        '/game': '游戏管理',
+        '/rate': '汇率列表',
+        '/operations': '供应商管理',
+        '/menuList': '菜单管理',
+        '/roleList': '角色管理'
+    }
+}

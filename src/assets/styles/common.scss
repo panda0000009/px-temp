@@ -1,0 +1,98 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+    overflow: hidden;
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        color: #1890ff;
+        border-bottom: 1px solid #e8e8e8;
+
+        &--text {
+            font-weight: bold;
+        }
+
+        &--add {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            .anticon {
+                font-size: 12px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    &__header {
+        padding-bottom: 10px;
+    }
+
+    &__container {
+        flex: 1;
+        overflow: hidden;
+    }
+
+    &__footer {
+        border: {
+            left: 1px solid #e8e8e8;
+            right: 1px solid #e8e8e8;
+            bottom: 1px solid #e8e8e8;
+        }
+    }
+
+    &--modal {
+        height: 60vh;
+        // overflow: hidden auto;
+    }
+}
+
+.delete {
+    color: #ff4d4f;
+    cursor: pointer;
+
+    &:hover {
+        color: #ff4d4f90;
+    }
+}
+
+.primary {
+    color: #1890ff;
+    cursor: pointer;
+
+    &:hover {
+        color: rgba(24, 144, 255, 0.5647058824);
+    }
+}
+
+.disabled {
+    color: #c1b8cd;
+    cursor: not-allowed;
+
+    &:hover {
+        color: #c1b8cd;
+    }
+}
+
+.ant-image-preview-mask {
+    z-index: 1013 !important;
+}
+
+.ant-layout-sider-trigger {
+    background-color: var(--sidebar-bg) !important;
+    color: #fff;
+}
+
+.ant-layout-sider-trigger:hover {
+    background-color: var(--sidebar-hover) !important;
+}
+
+.ant-message {
+    z-index: 9999 !important;
+}
